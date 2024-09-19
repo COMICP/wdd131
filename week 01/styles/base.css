@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+.fascinate-inline-regular {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+header {
+    background-color: gray;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+header > a{
+    background-color: black;
+ 
+    margin: auto;
+}
+header li{
+    list-style: none;
+    display: inline;
+}
+header h1{
+    font: "Fascinate Inline";
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    background-color: rgb(231, 201, 81);
+    border-radius: 10px;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgb(222, 222, 222);
+}
+main{
+    display: grid;
+    grid-template-columns: 60vw 30vw ;
+    grid-template-rows: 50vh ;
+}
+section{
+    outline: solid;
+    margin: 1vw;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+}
