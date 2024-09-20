@@ -7,25 +7,38 @@
     font-style: normal;
 }
   
-
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    border-bottom: solid 1px;
+}
 header {
-    background-color: gray;
+    background-color: rgb(176, 217, 245);
     list-style: none;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
+    border: none;
 }
-header > a{
-    background-color: black;
- 
-    margin: auto;
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+header  a{
+    text-decoration: none;
+    margin: none;
+    color: black;
+    padding: 10px;
 }
 header li{
     list-style: none;
     display: inline;
 }
 header h1{
-    font: "Fascinate Inline";
+    font-family: "Fascinate Inline";
     margin: 0;
     padding: 0;
 }
@@ -38,12 +51,42 @@ h2{
 a:hover{
     background-color: rgb(222, 222, 222);
 }
+#s1{
+    width: 60vw;
+}
+#s1 div div{
+    display: flex;
+}
+#personaldiv{
+    display: flex;
+    justify-content: space-between;
+}
+#personaldiv p{
+    width: 60%;
+    border: solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+#personaldiv img{
+    max-width: 30%;
+    max-height: auto;
+    border-radius: 20px;
+}
 main{
-    display: grid;
+    display: flex;
+    justify-content: space-between;
     grid-template-columns: 60vw 30vw ;
     grid-template-rows: 50vh ;
 }
+#flaggroup{
+    max-width: 30%;
+}
+#flaggroup img{
+ max-width: 90%;
+}
 section{
+    width: 30vw;
+    height: 60vh;
     outline: solid;
     margin: 1vw;
     border-radius: 20px;
