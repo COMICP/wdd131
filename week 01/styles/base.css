@@ -86,7 +86,7 @@ main{
 }
 section{
     width: 30vw;
-    height: 60vh;
+    min-height: 60vh;
     outline: solid;
     margin: 1vw;
     border-radius: 20px;
