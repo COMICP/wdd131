@@ -1,0 +1,25 @@
+img{
+    max-width: 150px;
+}
+ul{
+    list-style: none;
+}
+li{
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+footer{
+    margin: auto;
+    padding: 2%;
+
+    text-align: center;
+    background-color: rgb(248, 243, 193);
+}
