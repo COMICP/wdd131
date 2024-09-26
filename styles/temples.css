@@ -7,29 +7,43 @@ img {
 
 }
 
+h1,
+h2 {
+    font-family: 'Fascinate Inline';
+}
+
 ul {
     list-style: none;
 }
-h1{text-align: center;}
+
+h1 {
+    text-align: center;
+}
+
 #nav {
 
     display: none;
     background-color: rgb(255, 177, 177);
     padding: 10px 20%;
 }
-a:hover{
+body{
+    margin: auto;
+    max-width: 1500px;
+}
+a:hover {
 
     background-color: white;
 }
-nav a{
-margin: auto;  
-  padding: 10px 8%;
-  font-size: 20px;
-  text-decoration: none;
+
+nav a {
+    margin: auto;
+    padding: 10px 8%;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 #imgs {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -43,9 +57,11 @@ main {
     margin: auto;
 
 }
-button{
+
+button {
     margin: auto;
 }
+
 footer {
 
     text-align: center;
