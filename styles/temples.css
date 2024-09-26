@@ -1,25 +1,37 @@
-img{
+img {
     max-width: 150px;
-}
-ul{
-    list-style: none;
-}
-li{
 
 }
-main{
+
+ul {
+    list-style: none;
+}
+h1{text-align: center;}
+#nav {
+    display: none;
+}
+nav a{
+    margin: auto;
+}
+
+#imgs {
     display: flex;
     flex-wrap: wrap;
 }
-div{
+
+main {
     text-align: center;
+}
+
+#img div {
     width: 200px;
     margin: auto;
+
 }
-footer{
+button{
     margin: auto;
-    padding: 2%;
+}
+footer {
 
     text-align: center;
-    background-color: rgb(248, 243, 193);
 }
