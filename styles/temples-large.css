@@ -1,9 +1,10 @@
-@media screen and (min-width: 500px){
+@media screen and (min-width: 1000px){
     button{
         display: none;
     }
-    nav{
+    #nav{
         display: flex;
     }
+
 
 }

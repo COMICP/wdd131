@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+
+
 img {
-    max-width: 150px;
+    max-width: 20rem;
 
 }
 
@@ -8,15 +12,26 @@ ul {
 }
 h1{text-align: center;}
 #nav {
+
     display: none;
+    background-color: rgb(255, 177, 177);
+    padding: 10px 20%;
+}
+a:hover{
+
+    background-color: white;
 }
 nav a{
-    margin: auto;
+margin: auto;  
+  padding: 10px 8%;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 #imgs {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 main {
@@ -24,7 +39,7 @@ main {
 }
 
 #img div {
-    width: 200px;
+    width: 20rem;
     margin: auto;
 
 }
