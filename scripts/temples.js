@@ -9,3 +9,4 @@ function drop() {
         but.innerHTML = '☰';
     }
 }
+
