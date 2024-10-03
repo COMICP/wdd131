@@ -19,7 +19,9 @@ h1{
     font-size: 60px;
 }
 
-
+#emo{
+    display: none;
+}
 #hero img {
     border-radius: var(--defrad);
     width: 100%;
