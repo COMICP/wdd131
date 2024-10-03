@@ -6,6 +6,9 @@
     margin: auto;
     background: rgb(255, 244, 197);
     font-family: 'Open Sans';
+    --defrad: 20px;
+    --maincol: rgb(255, 244, 197);
+    --accentcol:rgb(114, 30, 76);
 }
 
 header {
@@ -18,7 +21,7 @@ h1{
 }
 
 #hero img {
-    border-radius: 20px;
+    border-radius: var(--defrad);
 }
 
 #weather img {
@@ -28,7 +31,7 @@ h1{
 }
 h1::after{
     content: ' - For Lovers';
-    color: rgb(114, 30, 76);
+    color: var(--accentcol);
 }
 h2 {
     text-align: center;
@@ -36,7 +39,7 @@ h2 {
 
 .ms {
     border: solid;
-    border-radius: 20px;
+    border-radius: var(--defrad);
     margin: 20px 0;
 }
 
