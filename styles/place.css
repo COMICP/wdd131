@@ -1,0 +1,48 @@
+:root {
+    max-width: 1920px;
+    margin: auto;
+    background-color: rgb(255, 244, 197);
+}
+
+header {
+    text-align: center;
+
+}
+
+#hero img {
+    border-radius: 20px;
+}
+
+#weather img {
+    max-height: 15vw;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.ms {
+    border: solid;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.info {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.info p {
+    padding: 0 5%;
+}
+
+.info> :first-child {
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+}

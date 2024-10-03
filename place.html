@@ -1,28 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jaden Binette">
     <meta name="description" content="Page to display Temples">
     <title>WDD 131 - Dynamic Web Fundamentals</title>
-
-    <link rel="stylesheet" href="styles/temples.css">
-    <link rel="stylesheet" href="styles/temples-large.css">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/placewide.css">
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/place.js" defer></script>
 </head>
+
 <body>
 
     <header>
-
+        <h1>Virginia</h1>
     </header>
     <main>
+        <picture id="hero">
+            <source srcset="images/flowers.webp" media="(max-width: 900px)">
+            <img src="images/birb.webp" alt="color" width="100%">
+        </picture>
 
+        <div class="ms" id="data">
+            <div class="info">
+                <p>Area</p>
+                <p>N/A</p>
+            </div>
+            <div class="info">
+                <p>Population</p>
+                <p>N/A</p>
+            </div>
+            <div class="info">
+                <p>Capital</p>
+                <p>N/A</p>
+            </div>
+            <div class="info">
+                <p>Languages</p>
+                <p>N/A</p>
+            </div>
+            <div class="info">
+                <p>Currency</p>
+                <p>N/A</p>
+            </div>
+            <div class="info">
+                <p>Time Zone</p>
+                <p>N/A</p>
+            </div>
+            <div class="info">
+                <p>Calling Code</p>
+                <p>N/A</p>
+            </div>
+            <div class="info">
+                <p>Internet TLD</p>
+                <p>N/A</p>
+            </div>
+        </div>
+
+        <div class="ms" id="weather">
+            <h2>Weather</h2>
+            <img src="images/weathericon.svg" alt="weather icon">
+            <div class="info">
+                <p>Temperature:</p>
+                <p>N/A</p>
+            </div>
+            <div class="info">
+                <p>Conditions</p>
+                <p>N/A</p>
+            </div>
+            <div class="info">
+                <p>Wind</p>
+                <p>N/A</p>
+            </div>
+            <div class="info">
+                <p>Wind Chill</p>
+                <p>N/A</p>
+            </div>
+        </div>
     </main>
     <footer>
         <p>©<span id="currentyear"></span> | Jaden Binette | United States </p>
         <p id="lastmodified"></p>
     </footer>
 </body>
+
 </html>
