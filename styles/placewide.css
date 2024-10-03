@@ -1,4 +1,7 @@
 @media screen and (min-width: 900px) {
+    :root{
+        max-width: 1200px;
+    }
     #weather img {
         display: none;
     }
