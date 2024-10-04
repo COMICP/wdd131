@@ -69,6 +69,7 @@ function drop() {
         but.innerHTML = '☰';
     }
 }
+
 function displayHome(){
     temples.forEach(element => {
         let img = element.imageUrl;
