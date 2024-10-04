@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/filtered-temples.js" defer></script>
 </head>
+
 <body>
     <header>
         <h1>Temple Album</h1>
@@ -19,28 +21,29 @@
             <button id="navbut" onclick="drop()">☰</button>
             <nav id="nav">
 
-                <button id="home" onclick="displayHome()">Home</button>
-                <button id="old" onclick="oldtemp()">Old</button>
-                <button id="new" onclick="newtemp()">New</button>
-                <button id="large" onclick="bigtemp()">Large</button>
-                <button id="small" onclick="smalltemp()">Small</button>
-    
+                <a id="home" onclick="displayHome()">Home</a>
+                <a id="old" onclick="oldtemp()">Old</a>
+                <a id="new" onclick="newtemp()">New</a>
+                <a id="large" onclick="bigtemp()">Large</a>
+                <a id="small" onclick="smalltemp()">Small</a>
+
             </nav>
         </div>
-        
+
 
     </header>
     <main>
         <h2>Home</h2>
         <div id="imgs">
-            
+
         </div>
-        
-        
+
+
     </main>
     <footer>
         <p>©<span id="currentyear"></span> | Jaden Binette | United States </p>
         <p id="lastmodified"></p>
     </footer>
 </body>
+
 </html>
