@@ -17,6 +17,9 @@ div{
     height: 100px;
     margin: 10px;
 }
+img{
+    width: 100%;
+}
 #c1{
     background-color: rgb(250, 232, 128);
 }
