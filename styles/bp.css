@@ -1,0 +1,36 @@
+h1, p, h2{
+    color: white;
+}
+h1,h2{
+    font-family: 'Playwrite AR';
+
+}
+p{
+    width: 500px;
+}
+h1{
+    text-align: center;
+}
+div{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#c1{
+    background-color: rgb(250, 232, 128);
+}
+#c2{
+    background-color: rgb(27, 67, 141);
+}
+#c3{
+    background-color: rgb(255, 255, 255);
+}
+body{
+    background-color: black;
+    width: 500px;
+    margin: auto;
+}
+footer {
+    text-align: center;
+}
