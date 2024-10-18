@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jaden Binette">
+    <meta name="description" content="Page to display Temples">
+    <title>WDD 131 - Dynamic Web Fundamentals</title>
+
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <div>
+            <button id="navbut" onclick="drop()">☰</button>
+            <nav id="nav">
+
+                <a id="home" onclick="displayHome()">Home</a>
+                <a id="old" onclick="oldtemp()">Old</a>
+                <a id="new" onclick="newtemp()">New</a>
+                <a id="large" onclick="bigtemp()">Large</a>
+                <a id="small" onclick="smalltemp()">Small</a>
+
+            </nav>
+        </div>
+
+
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div id="imgs">
+
+        </div>
+
+
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> | Jaden Binette | United States </p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+
+</html>
