@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jaden Binette">
+    <meta name="description" content="Home page for the class assignments">
+    <title>WDD 131 - Dynamic Web Fundamentals</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Jaden Binette</h1>
+        <h1>Product Review</h1>
+    </header>
+
+
+    <main>
+        <form action="get" method="get">
+            <label for="products">Select Product:</label><br>
+            <select name="product" required id="products" >
+
+            </select>
+            <div>
+                <p>Overall Rating:</p>
+                <input type="radio" id="option1" name="group1" value="Option1" required>
+                <label for="option1">*</label><br>
+                <input type="radio" id="option2" name="group1" value="Option2">
+                <label for="option2">**</label><br>
+                <input type="radio" id="option3" name="group1" value="Option3">
+                <label for="option3">***</label><br>
+                <input type="radio" id="option4" name="group1" value="Option4">
+                <label for="option4">****</label><br>
+                <input type="radio" id="option5" name="group1" value="Option5">
+                <label for="option5">*****</label><br>
+            </div>
+
+            <label for="instdate">Date of Installation </label><br>
+            <input type="date" name="date" id="instdate">
+
+            <div>
+                <input type="checkbox" id="feat1" name="feat1" value="dura">
+                <label for="feat1">Durability</label><br>
+                <input type="checkbox" id="feat2" name="feat2" value="ease">
+                <label for="feat2">Ease of use</label><br>
+                <input type="checkbox" id="feat3" name="feat3" value="perfo">
+                <label for="feat3">Performance</label><br>
+                <input type="checkbox" id="feat4" name="feat4" value="design">
+                <label for="feat4">Design</label><br><br>
+            </div>
+
+            
+            <label for="writrev">Written Review (Optional)</label><br>
+            <input type="textarea" name="writrev" id="writrev"><br>
+
+            <label for="name">Name (Optional)</label><br>
+            <input type="text" name="name" id="name"><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </main>
+
+
+    <footer>
+        <p>©<span id="currentyear"></span> | Jaden Binette | United States </p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+
+
+</html>

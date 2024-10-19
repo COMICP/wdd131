@@ -1,0 +1,9 @@
+main{
+    width: 500px;
+    display: flex;
+}
+form{
+    background-color: rgb(216, 216, 216);
+    margin: auto;
+
+}
