@@ -36,5 +36,13 @@ function populateProducts(){
         ele.innerText = element.name
         document.getElementById('products').appendChild(ele)
     })
-}
+};
 populateProducts();
+
+localStorage.setItem(revnum, (0))
+function increvnum(){
+    let incnum = localStorage.getItem(revnum)
+    localStorage.setItem(revnum, incnum += 1)
+    console.log(incnum +=1)
+};
+document.getElementById('submit').addEventListener('click', increvnum);
