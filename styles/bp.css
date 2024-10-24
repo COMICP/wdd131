@@ -5,18 +5,85 @@ h1,h2{
     font-family: 'Playwrite AR';
 
 }
-p{
-    width: 500px;
+
+header {
+    border: 5px solid rgb(27, 67, 141);
+    border-style: solid;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+header li {
+    list-style: none;
+    display: inline;
+}
+#hero{
+    border-radius: 20px;
+}
+#hhdiv{
+    padding-top: 5rem;
+    position: relative;
+}
+
+#hhdiv h1::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: rgba(0, 0, 0, 0.466);
+    z-index: -1;
+    filter: blur(10px);
+}
+#hhdiv h1{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#abme{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#abme p{
+    max-width: 80%;
+
 }
 h1{
     text-align: center;
 }
-div{
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+#port{
+    width: 50%;
+    max-width:  300px;
+    grid-column: 2;
+    margin: auto;
+    border-radius: 20px;
 }
+
 img{
     width: 100%;
 }
@@ -31,7 +98,8 @@ img{
 }
 body{
     background-color: black;
-    width: 500px;
+    width: 80vw;
+    max-width: 800px;
     margin: auto;
 }
 footer {
