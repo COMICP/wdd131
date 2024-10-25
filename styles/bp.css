@@ -35,6 +35,9 @@ header li {
     list-style: none;
     display: inline;
 }
+caption{
+    color: white;
+}
 #hero{
     border-radius: 20px;
 }
@@ -53,6 +56,16 @@ header li {
     background: rgba(0, 0, 0, 0.466);
     z-index: -1;
     filter: blur(10px);
+}
+#imgs{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#imgs img{
+    max-height: 10rem;
+    width: auto;
+    margin: auto;
 }
 #hhdiv h1{
     position: absolute;
