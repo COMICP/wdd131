@@ -81,7 +81,9 @@ caption{
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
-
+label{
+    color: white;
+}
 #abme p{
     max-width: 80%;
 

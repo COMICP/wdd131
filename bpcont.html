@@ -12,11 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/bp.css">
     <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/bpcont.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>Home</h1>
+        <h1>Contact</h1>
         <nav>
             <a class="headerlink" href="bphome.html">Home</a>
             <a class="headerlink" href="bpcont.html">Contact</a>
@@ -25,8 +26,29 @@
     </header>
 
     <main>
-       
 
+        <div>
+            <div>
+                <h2>Email</h2>
+                <p>lajbgffi@oibj.com</p>
+            </div>
+            <div>
+                <h2>Phone</h2>
+                <p>123-456-7890</p>
+            </div>
+        </div>
+        <form>
+          
+            <label for="writrev">Message</label><br>
+            <input type="textarea" name="writrev" required id="writrev"><br>
+
+            <label for="name" >Email</label><br>
+            <input type="text" name="email" id="email" required><br>
+
+            <button type="submit" id="submit">Submit</button>
+
+        </form>
+        <div id="countdiv"></div>
     </main>
 
     <footer>
