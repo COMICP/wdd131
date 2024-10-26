@@ -30,7 +30,31 @@ header a {
     padding: 10px;
 }
 
+#contmain div div{
 
+
+    margin: 2vw;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#contmain div h2{
+    text-align: center;
+}
+form{
+    display: block;
+    margin: 10% auto;
+    max-width: fit-content;
+    
+}
+#contactform{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#contmain p {
+    text-align: center;
+    margin:10%;
+}
 header li {
     list-style: none;
     display: inline;

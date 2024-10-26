@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/bp.css">
+    <link rel="stylesheet" href="styles/bpmobile.css">
     <script src="scripts/getdate.js" defer></script>
     <script src="scripts/bpcont.js" defer></script>
 </head>
@@ -25,7 +26,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id = "contmain">
 
         <div>
             <div>
@@ -37,17 +38,21 @@
                 <p>123-456-7890</p>
             </div>
         </div>
-        <form>
-          
-            <label for="writrev">Message</label><br>
-            <input type="textarea" name="writrev" required id="writrev"><br>
+        <div id="contactform">
+            <h2>Contact Form</h2>
+            <form>
+            
+                <label for="writrev">Message</label><br>
+                <input type="textarea" name="writrev" required id="writrev"><br>
 
-            <label for="name" >Email</label><br>
-            <input type="text" name="email" id="email" required><br>
+                <label for="email" >Email</label><br>
+                <input type="text" name="email" id="email" required><br>
 
-            <button type="submit" id="submit">Submit</button>
+                <button type="submit" id="submit">Submit</button>
 
-        </form>
+            </form>
+        </div>
+        
         <div id="countdiv"></div>
     </main>
 

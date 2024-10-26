@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 600px) {
+
+
+    #imgs img{
+        display: block;
+        max-width: 100%;
+        margin-left: 30vw;
+        transform: translate(-50%);
+    }
+    #abme img{
+        width: 100%;
+        display: block;
+
+        margin: auto;
+        margin-top: 10%;
+    }
+    #abme{
+        display: block;
+
+    }
+    #abme h2{
+        text-align: center
+    }
+    #abme p{
+        margin: auto ;
+    }
+
+}

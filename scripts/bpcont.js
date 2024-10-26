@@ -9,14 +9,14 @@ function checkmsg(){
 }
 
 
-if (localStorage.getItem("msgmun") !== null){
-    localStorage.setItem(msgnum, (0))
+if (localStorage.getItem("msgnum") == null){
+    localStorage.setItem("msgnum", 0)
 }
 
 function messages(){
     let incnum = parseInt(localStorage.getItem("msgnum")) 
     localStorage.setItem("msgnum", incnum += 1)
-    console.log(incnum +=1)
+    console.log(incnum)
 }
 checkmsg();
 
